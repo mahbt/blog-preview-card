@@ -65,7 +65,7 @@ a {
 .card .card-content .avatar-flex {
   display: flex;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 .card .card-content .avatar-flex .avatar {
   height: 30px;
