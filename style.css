@@ -1,0 +1,82 @@
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: var(--yellow);
+  font-size: 1rem;
+  color: var(--gray-950);
+  height: 100vh;
+  overflow-x: hidden;
+}
+img {
+  width: 100%;
+}
+a {
+  color: var(--gray-950);
+  text-decoration: none;
+}
+.card {
+  background: var(--white);
+  margin: 220px auto;
+  border-radius: 15px;
+  max-width: 380px;
+  padding: 20px;
+  border: 1px solid var(--gray-950);
+  box-shadow: 8px 8px;
+}
+.card .card-header-img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.card .card-content .btn {
+  display: inline-block;
+  background: var(--yellow);
+  padding: 5px 10px;
+  font-weight: 900;
+  font-size: 0.75rem;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.card .card-content a + p {
+  font-size: 0.9rem;
+}
+.card .card-content .card-heading {
+  font-size: 1.5rem;
+  line-height: 2.5;
+  cursor: pointer;
+}
+.card .card-content .card-heading a:hover {
+  color: var(--yellow);
+}
+.card .card-content .text-primary {
+  color: var(--gray-500);
+}
+.card .card-content .avatar-flex {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.card .card-content .avatar-flex .avatar {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.card .card-content .avatar-flex p {
+  font-weight: 900;
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 325px;
+    margin: 150px auto;
+  }
+}
