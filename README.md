@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (#)
+- Live Site URL: [Blog Preview Card](https://mahbt.github.io/blog-preview-card/)
 
 ### Built with
 
